@@ -1,0 +1,15 @@
+/* line 1, ../sass/module/_nav.scss */
+.navbar-header {
+  margin: 3px;
+  padding-right: 10px;
+}
+
+/* line 6, ../sass/module/_nav.scss */
+.md--form {
+  width: 550px !important;
+}
+
+/* line 10, ../sass/module/_nav.scss */
+.md--fa {
+  font-size: 1.4em;
+}
