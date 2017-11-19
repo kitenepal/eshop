@@ -9,25 +9,121 @@
 /* line 7, ../sass/module/_nav.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
+  transition: 0.5s;
 }
 
-/* line 10, ../sass/module/_nav.scss */
+/* line 11, ../sass/module/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #AAAAAA;
 }
 
-/* line 13, ../sass/module/_nav.scss */
+/* line 14, ../sass/module/_nav.scss */
 .navbar-header {
   margin: 3px;
   padding-right: 10px;
 }
 
-/* line 18, ../sass/module/_nav.scss */
+/* line 19, ../sass/module/_nav.scss */
 .md--form {
   width: 550px !important;
 }
 
-/* line 22, ../sass/module/_nav.scss */
+/* line 23, ../sass/module/_nav.scss */
 .md--fa {
-  font-size: 1.4em;
+  font-size: 1.8em;
+}
+
+/* line 27, ../sass/module/_nav.scss */
+.baby {
+  width: 50px;
+}
+
+/* line 31, ../sass/module/_nav.scss */
+img {
+  vertical-align: top;
+  color: white;
+}
+
+/* line 1, ../sass/module/_slider.scss */
+.carousel {
+  height: 388px;
+  border: 1px solid #cccccc;
+  overflow: hidden;
+}
+
+/* line 2, ../sass/module/_hotdeal.scss */
+.hotdeal--image {
+  background-color: #cccccc;
+  width: 356px;
+  height: 333px;
+  border: 1px solid #cccccc;
+}
+
+/* For desktop: */
+/* line 11, ../sass/module/_hotdeal.scss */
+.col-1 {
+  width: 8.33%;
+}
+
+/* line 12, ../sass/module/_hotdeal.scss */
+.col-2 {
+  width: 16.66%;
+}
+
+/* line 13, ../sass/module/_hotdeal.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 14, ../sass/module/_hotdeal.scss */
+.col-4 {
+  width: 33.33%;
+}
+
+/* line 15, ../sass/module/_hotdeal.scss */
+.col-5 {
+  width: 41.66%;
+}
+
+/* line 16, ../sass/module/_hotdeal.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 17, ../sass/module/_hotdeal.scss */
+.col-7 {
+  width: 58.33%;
+}
+
+/* line 18, ../sass/module/_hotdeal.scss */
+.col-8 {
+  width: 66.66%;
+}
+
+/* line 19, ../sass/module/_hotdeal.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 20, ../sass/module/_hotdeal.scss */
+.col-10 {
+  width: 83.33%;
+}
+
+/* line 21, ../sass/module/_hotdeal.scss */
+.col-11 {
+  width: 91.66%;
+}
+
+/* line 22, ../sass/module/_hotdeal.scss */
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* line 26, ../sass/module/_hotdeal.scss */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
