@@ -9,7 +9,7 @@
 /* line 7, ../sass/module/_nav.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* line 11, ../sass/module/_nav.scss */
@@ -57,10 +57,62 @@ img {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 500px) {
+  /* line 8, ../sass/module/_slider.scss */
+  .carousel {
+    height: auto;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 17, ../sass/module/_slider.scss */
+  .carousel {
+    height: auto;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    background-color: red;
+  }
+}
 /* line 2, ../sass/module/_hotdeal.scss */
 .hotdeal--image {
   background-color: #cccccc;
-  width: 356px;
+  max-width: 100%;
   height: 333px;
   border: 1px solid #cccccc;
+}
+/* line 8, ../sass/module/_hotdeal.scss */
+.hotdeal--heading {
+  font-weight: bold;
+  color: #640000;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 16, ../sass/module/_hotdeal.scss */
+  .hotdeal--image {
+    background-color: #cccccc;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+  }
+  /* line 22, ../sass/module/_hotdeal.scss */
+  .hotdeal--heading {
+    font-weight: bold;
+    color: #640000;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 31, ../sass/module/_hotdeal.scss */
+  .hotdeal--image {
+    background-color: #cccccc;
+    width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+  }
+  /* line 37, ../sass/module/_hotdeal.scss */
+  .hotdeal--heading {
+    font-weight: bold;
+    color: #640000;
+  }
 }

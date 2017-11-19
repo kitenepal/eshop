@@ -3,3 +3,21 @@
 	border: 1px solid $gray;
 	overflow: hidden;
 }
+
+@media only screen and (max-width: 500px) {
+	.carousel {
+		height: auto;	
+		border: 1px solid $gray;
+		overflow: hidden;
+		background-color: red;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.carousel {
+		height: auto;	
+		border: 1px solid $gray;
+		overflow: hidden;
+		background-color: red;
+	}
+}
