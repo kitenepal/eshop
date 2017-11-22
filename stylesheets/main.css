@@ -113,26 +113,30 @@ img {
 /* line 1, ../sass/module/_offers.scss */
 .productbox {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 15px;
   margin-bottom: 10px;
   -webkit-box-shadow: 0 8px 6px -6px  #999;
   -moz-box-shadow: 0 8px 6px -6px  #999;
   box-shadow: 0 8px 6px -6px #999;
 }
+/* line 8, ../sass/module/_offers.scss */
+.productbox img {
+  height: 200px;
+}
 
-/* line 10, ../sass/module/_offers.scss */
+/* line 13, ../sass/module/_offers.scss */
 .producttitle {
   font-weight: bold;
   padding: 5px 0 5px 0;
 }
 
-/* line 15, ../sass/module/_offers.scss */
+/* line 18, ../sass/module/_offers.scss */
 .productprice {
   border-top: 1px solid #dadada;
   padding-top: 5px;
 }
 
-/* line 20, ../sass/module/_offers.scss */
+/* line 23, ../sass/module/_offers.scss */
 .pricetext {
   font-weight: bold;
   font-size: 1.4em;
