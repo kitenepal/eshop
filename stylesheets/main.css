@@ -19,7 +19,7 @@
 
 /* line 14, ../sass/module/_nav.scss */
 .navbar-header {
-  margin: 3px;
+  margin: 10px;
   padding-right: 10px;
 }
 
@@ -34,17 +34,12 @@
 }
 
 /* line 27, ../sass/module/_nav.scss */
-.baby {
-  width: 50px;
-}
-
-/* line 31, ../sass/module/_nav.scss */
 img {
   vertical-align: top;
   color: white;
 }
 
-/* line 36, ../sass/module/_nav.scss */
+/* line 32, ../sass/module/_nav.scss */
 .dropdown-menu > li > a:hover {
   border-left: 5px solid #f46600;
   transition: 0.3s;
@@ -63,16 +58,15 @@ img {
     height: auto;
     border: 1px solid #cccccc;
     overflow: hidden;
-    background-color: red;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 17, ../sass/module/_slider.scss */
+  /* line 16, ../sass/module/_slider.scss */
   .carousel {
     height: auto;
     border: 1px solid #cccccc;
     overflow: hidden;
-    background-color: red;
+    position: relative;
   }
 }
 /* line 2, ../sass/module/_hotdeal.scss */
@@ -89,30 +83,57 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
-  /* line 16, ../sass/module/_hotdeal.scss */
+  /* line 17, ../sass/module/_hotdeal.scss */
   .hotdeal--image {
     background-color: #cccccc;
     max-width: 100%;
     height: auto;
     border: 1px solid #cccccc;
   }
-  /* line 22, ../sass/module/_hotdeal.scss */
+  /* line 23, ../sass/module/_hotdeal.scss */
   .hotdeal--heading {
     font-weight: bold;
     color: #640000;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 31, ../sass/module/_hotdeal.scss */
+  /* line 32, ../sass/module/_hotdeal.scss */
   .hotdeal--image {
     background-color: #cccccc;
     width: 100%;
     height: auto;
     border: 1px solid #cccccc;
   }
-  /* line 37, ../sass/module/_hotdeal.scss */
+  /* line 38, ../sass/module/_hotdeal.scss */
   .hotdeal--heading {
     font-weight: bold;
     color: #640000;
   }
+}
+/* line 1, ../sass/module/_offers.scss */
+.productbox {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 8px 6px -6px  #999;
+  -moz-box-shadow: 0 8px 6px -6px  #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+/* line 10, ../sass/module/_offers.scss */
+.producttitle {
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+}
+
+/* line 15, ../sass/module/_offers.scss */
+.productprice {
+  border-top: 1px solid #dadada;
+  padding-top: 5px;
+}
+
+/* line 20, ../sass/module/_offers.scss */
+.pricetext {
+  font-weight: bold;
+  font-size: 1.4em;
 }
