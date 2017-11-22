@@ -19,8 +19,8 @@
 
 /* line 14, ../sass/module/_nav.scss */
 .navbar-header {
-  margin: 10px;
-  padding-right: 10px;
+  margin-top: 5px;
+  padding-right: 5px;
 }
 
 /* line 19, ../sass/module/_nav.scss */
@@ -121,7 +121,7 @@ img {
 }
 /* line 8, ../sass/module/_offers.scss */
 .productbox img {
-  height: 200px;
+  height: 130px;
 }
 
 /* line 13, ../sass/module/_offers.scss */
@@ -140,4 +140,22 @@ img {
 .pricetext {
   font-weight: bold;
   font-size: 1.4em;
+}
+
+@media (max-width: 500px) {
+  /* line 30, ../sass/module/_offers.scss */
+  .productbox img {
+    height: 250px;
+    width: 100%;
+  }
+}
+/* line 37, ../sass/module/_offers.scss */
+.btn {
+  transition: 0.5s;
+  background: #f46600;
+  color: white;
+}
+/* line 41, ../sass/module/_offers.scss */
+.btn:hover {
+  color: white;
 }

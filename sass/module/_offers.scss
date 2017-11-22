@@ -6,7 +6,7 @@
 	   -moz-box-shadow: 0 8px 6px -6px  #999;
 	        box-shadow: 0 8px 6px -6px #999;
 	img{
-		height: 200px;
+		height: 130px;
 	}
 }
 
@@ -23,4 +23,22 @@
 .pricetext {
 	font-weight:bold;
 	font-size:1.4em;
+}
+
+@media (max-width: 500px) {
+	.productbox{
+		img{
+			height: 250px;
+			width: 100%;
+		}
+	}
+}
+
+.btn{
+	transition: 0.5s;
+	background: $orange;
+	color: white;
+	&:hover{
+		color: white;
+	}
 }
