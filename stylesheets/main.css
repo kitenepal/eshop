@@ -45,6 +45,65 @@ img {
   transition: 0.3s;
 }
 
+@media (max-width: 970px) {
+  /* line 38, ../sass/module/_nav.scss */
+  .md--form {
+    width: 350px !important;
+  }
+}
+@media (max-width: 766px) {
+  /* line 44, ../sass/module/_nav.scss */
+  .form-control {
+    display: inline;
+  }
+
+  /* line 47, ../sass/module/_nav.scss */
+  .md--form {
+    width: 80% !important;
+  }
+
+  /* line 50, ../sass/module/_nav.scss */
+  .navbar-form {
+    margin: 0px auto;
+    border: none;
+  }
+
+  /* line 54, ../sass/module/_nav.scss */
+  .together {
+    display: flex;
+    margin: 0px 25px;
+  }
+
+  /* line 58, ../sass/module/_nav.scss */
+  .together > .nav {
+    flex: 1;
+  }
+
+  /* line 61, ../sass/module/_nav.scss */
+  .navbar-header {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* line 65, ../sass/module/_nav.scss */
+  .navbar-header > img {
+    margin: 10px;
+  }
+}
+@media (max-width: 433px) {
+  /* line 71, ../sass/module/_nav.scss */
+  .form-group > .btn-default {
+    margin: 0px auto;
+    display: block;
+    margin-top: 5px;
+  }
+
+  /* line 76, ../sass/module/_nav.scss */
+  .form-group > .md--form {
+    margin: 0px auto;
+    display: block;
+  }
+}
 /* line 1, ../sass/module/_slider.scss */
 .carousel {
   height: 388px;

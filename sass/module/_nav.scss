@@ -33,3 +33,48 @@ img {
 	border-left: 5px solid $orange;
 	transition: 0.3s;
 }
+
+@media (max-width:970px){
+	.md--form{
+		width: 350px !important; 
+	}
+}
+
+@media (max-width: 766px){
+	.form-control{
+		display: inline;
+	}
+	.md--form{
+		width: 80% !important; 
+	}
+	.navbar-form{
+		margin: 0px auto;
+		border: none;
+	}
+	.together{
+		display: flex;
+		margin: 0px 25px;
+	}
+	.together > .nav{
+		flex: 1;
+	}
+	.navbar-header{
+		margin: 0px;
+		padding: 0px;
+	}
+	.navbar-header > img{
+		margin: 10px;
+	}
+}
+
+@media (max-width: 433px){
+	.form-group > .btn-default{
+		margin: 0px auto;
+		display: block;
+		margin-top: 5px;
+	}
+	.form-group > .md--form{
+		margin: 0px auto;
+		display: block;
+	}
+}
