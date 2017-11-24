@@ -1,229 +1,240 @@
 <html>
-<head>
-	<meta charset="UTF-8">
-  <meta name=viewport content="width=device-width, initial-scale=1">
 
-	<title>e-shop</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>e-shop</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/slider.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
-<body>
 
-<!-- Navigation bar -->
-<nav class="navbar navbar-default md--navbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-header" href="#"><img src="image/logo.jpg" width="30" height="30"></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <div class="together">
-        <div class="form-center">
-          <form class="navbar-form navbar-left md--form">
-            <div class="search-bar">
-              <span class="search-icon">
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-default md--navbar">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-header" href="#"><img src="image/logo.jpg" width="30" height="30"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="together">
+          <div class="form-center">
+            <form class="navbar-form navbar-left md--form">
+              <div class="search-bar">
+                <span class="search-icon">
                 <i class="fa fa-search"></i>
                 <input type="text" class="search" placeholder="search">
-              </span>  
-            </div>
-          </form>
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="fa fa-sort-down md--fa" aria-hidden="true"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Computer</a></li>
-                <li><a href="#">Cosmetic</a></li>
-                <li><a href="#">Kitchen</a></li>
-    <!--          <li><a href="#">Something else here</a></li>
+              </span>
+              </div>
+            </form>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="fa fa-sort-down md--fa" aria-hidden="true"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Computer</a></li>
+                  <li><a href="#">Cosmetic</a></li>
+                  <li><a href="#">Kitchen</a></li>
+                  <!--          <li><a href="#">Something else here</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Separated link</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">One more separated link</a></li> -->
-              </ul>
-            </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="navbarCollaps" class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="fa fa-question-circle-o" aria-hidden="true"> </span> Help</a></li>
+            <li><a href="#"><span class="fa fa-user-circle-o" aria-hidden="true"> </span> Account</a></li>
           </ul>
         </div>
-      </div>      
-      <div id="navbarCollaps" class="navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="fa fa-question-circle-o" aria-hidden="true"> </span> Help</a></li>
-        <li><a href="#"><span class="fa fa-user-circle-o" aria-hidden="true"> </span> Account</a></li>
-      </ul>
-      </div>  
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!-- Slider -->
-<div class="container">
-  <div id="main_area">
-    <!-- Slider -->
-    <div class="row">
-      <div class="col-xs-12" id="slider">
-        <div class="row">
-          <div class="col-sm-8" id="carousel-bounding-box">
-            <div class="carousel slide" id="myCarousel">
-              <!-- Carousel items -->
-              <div class="carousel-inner">
-                <div class="active item" data-slide-number="0">
-                  <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- Slider -->
+  <div class="container">
+    <div id="main_area">
+      <!-- Slider -->
+      <div class="row">
+        <div class="col-xs-12" id="slider">
+          <div class="row">
+            <div class="col-sm-8" id="carousel-bounding-box">
+              <div class="carousel slide" id="myCarousel">
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                  <div class="active item" data-slide-number="0">
+                    <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+                  </div>
+                  <div class="item" data-slide-number="1">
+                    <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+                  </div>
+                  <div class="item" data-slide-number="2">
+                    <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+                  </div>
+                  <div class="item" data-slide-number="3">
+                    <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+                  </div>
+                  <div class="item" data-slide-number="4">
+                    <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+                  </div>
+                  <div class="item" data-slide-number="5">
+                    <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
+                  </div>
                 </div>
-
-                <div class="item" data-slide-number="1">
-                  <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
-                </div>
-
-                <div class="item" data-slide-number="2">
-                  <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
-                </div>
-
-                <div class="item" data-slide-number="3">
-                 <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
-                </div>
-
-                <div class="item" data-slide-number="4">
-                 <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
-                </div>
-
-                <div class="item" data-slide-number="5">
-                  <img src="https://static.pexels.com/photos/204611/pexels-photo-204611.jpeg">
-                </div>
+                <!-- Carousel nav -->
+                <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+									<span class="slider__icon">
+										<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+									</span>                               
+									</a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+									<span class="slider__icon">
+										<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+									</span>                                    
+								</a> -->
               </div>
-              <!-- Carousel nav -->
-<!--               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="slider__icon">
-                    <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
-                  </span>                               
-              </a>
-              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="slider__icon">
-                    <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-                  </span>                                    
-              </a> -->                                
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="hotdeal">
-              <h3 class="hotdeal--heading text-center">Hot Deal</h3>
-              <img src="http://www.fanoid.me/wp-content/uploads/2017/10/mandrawingmachine-356x334.jpg" alt="" class="hotdeal--image">
+            <div class="col-sm-4">
+              <div class="hotdeal">
+                <h3 class="hotdeal--heading text-center">Hot Deal</h3>
+                <img src="http://www.fanoid.me/wp-content/uploads/2017/10/mandrawingmachine-356x334.jpg" alt="" class="hotdeal--image">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<!-- Offers -->
-<div class="container">
-  <div class="row">
-    <div class="col-md-2 column productbox two firstproduct">
+  <!-- Offers -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 column productbox two firstproduct">
         <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/7390287/vpavic_161031_1256_0075.0.jpg" class="img-responsive">
         <div class="producttitle">Laptop</div>
-        <div class="productprice"><div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div><div class="pricetext">Rs. 999</div></div>
-    </div>
-    <div class="col-md-2 column productbox two">
+        <div class="productprice">
+          <div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div>
+          <div class="pricetext">Rs. 999</div>
+        </div>
+      </div>
+      <div class="col-md-2 column productbox two">
         <img src="https://www.pickeronline.com/uploads/category/147305304157cd01710f537.jpg" class="img-responsive">
         <div class="producttitle">Kitchen Ware</div>
-        <div class="productprice"><div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div><div class="pricetext">Rs 888</div></div>
-    </div>
-    <div class="col-md-2 column productbox two">
+        <div class="productprice">
+          <div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div>
+          <div class="pricetext">Rs 888</div>
+        </div>
+      </div>
+      <div class="col-md-2 column productbox two">
         <img src="http://reviewsellers.com/wp-content/uploads/2017/06/best-wet-grinder-brand-for-home-in-india-2017.jpg" class="img-responsive">
         <div class="producttitle">New Grinder</div>
-        <div class="productprice"><div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div><div class="pricetext">Rs. 555</div></div>
-    </div>
-    <div class="col-md-2 column productbox two">
+        <div class="productprice">
+          <div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div>
+          <div class="pricetext">Rs. 555</div>
+        </div>
+      </div>
+      <div class="col-md-2 column productbox two">
         <img src="http://hackdeal.in/wp-content/uploads/2016/01/CS110.jpg" class="img-responsive">
         <div class="producttitle">Lakme</div>
-        <div class="productprice"><div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div><div class="pricetext">Rs. 299</div></div>
-    </div>
-    <div class="col-md-2 column productbox two">
+        <div class="productprice">
+          <div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div>
+          <div class="pricetext">Rs. 299</div>
+        </div>
+      </div>
+      <div class="col-md-2 column productbox two">
         <img src="https://images-na.ssl-images-amazon.com/images/I/81fm63oRx5L._SX355_.jpg" class="img-responsive">
         <div class="producttitle">MSI Headphone</div>
-        <div class="productprice"><div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div><div class="pricetext">Rs. 785</div></div>
+        <div class="productprice">
+          <div class="pull-right"><a href="pages/product.html" class="btn btn-sm" role="button">BUY</a></div>
+          <div class="pricetext">Rs. 785</div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-<!-- Footer -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-<!--footer-->
-<footer class="bottom-footer">
-	<div class="container">
-		<div class="row"><!-- row -->
-		  <div class="col-lg-4 col-md-4"><!-- widgets column left -->
-		    <ul class="list-unstyled clear-margins"><!-- widgets -->
-		     	<li class="widget-container widget_nav_menu"><!-- widgets list -->
-		  				<h1 class="title-widget">Associated With: </h1>
-		          <ul>
-								<li><a  href="#">Amatya Store</a></li>
-								<li><a  href="#">Adarsha</a></li>
-								<li><a  href="#">KITE Nepal</a></li>
-		          </ul>
-					</li>
-				</ul>
-		  </div><!-- widgets column left end -->
-		                
-		                
-		  <div class="col-lg-4 col-md-4"><!-- widgets column center -->
-		    <ul class="list-unstyled clear-margins"><!-- widgets -->
-		    	<li class="widget-container widget_recent_news"><!-- widgets list -->
-		        <h1 class="title-widget">Contact Detail </h1>
-		        <div class="footerp"> 
-		          <h2 class="title-median">KITE Nepal Technosis Pvt. Ltd.</h2>
-		          <p><b>Email Id:</b> <a href="mailto:info@kitenepal.com">info@kitenepal.com</a></p>
-		          <p><b>Helpline Numbers </b>
-							<b>(8AM to 10PM):</b>  +91-8130890090 </p>
-					    <p><b>Phone Numbers : </b>7042827160, </p>
-						</div>
-					</li>
-			  </ul>
-			</div>
-
-			<div class="col-lg-4 col-md-4">
-				<div class="social-icons">
-					<ul class="nomargin">
-						<a href="https://www.facebook.com/kitenepal"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
-						<a href="https://twitter.com/kitenepal"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
-						<a href="https://plus.google.com/+kitenepal-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
-						<a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-<!--header-->
-
-<div class="footer-bottom">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<div class="copyright">
-					© 2017, KITE Nepal, All rights reserved
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<div class="design">
-					 <a target="_blank" href="http://www.kitenepal.com">Web Design & Development by KITE Nepal</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+  <!-- Footer -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--footer-->
+  <footer class="bottom-footer">
+    <div class="container">
+      <div class="row">
+        <!-- row -->
+        <div class="col-lg-4 col-md-4">
+          <!-- widgets column left -->
+          <ul class="list-unstyled clear-margins">
+            <!-- widgets -->
+            <li class="widget-container widget_nav_menu">
+              <!-- widgets list -->
+              <h1 class="title-widget">Associated With: </h1>
+              <ul>
+                <li><a href="#">Amatya Store</a></li>
+                <li><a href="#">Adarsha</a></li>
+                <li><a href="#">KITE Nepal</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- widgets column left end -->
+        <div class="col-lg-4 col-md-4">
+          <!-- widgets column center -->
+          <ul class="list-unstyled clear-margins">
+            <!-- widgets -->
+            <li class="widget-container widget_recent_news">
+              <!-- widgets list -->
+              <h1 class="title-widget">Contact Detail </h1>
+              <div class="footerp">
+                <h2 class="title-median">KITE Nepal Technosis Pvt. Ltd.</h2>
+                <p><b>Email Id:</b> <a href="mailto:info@kitenepal.com">info@kitenepal.com</a></p>
+                <p><b>Helpline Numbers </b>
+                  <b>(8AM to 10PM):</b> +91-8130890090 </p>
+                <p><b>Phone Numbers : </b>7042827160, </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="social-icons">
+            <ul class="nomargin">
+              <a href="https://www.facebook.com/kitenepal"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+              <a href="https://twitter.com/kitenepal"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+              <a href="https://plus.google.com/+kitenepal-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+              <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--header-->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="copyright">
+            © 2017, KITE Nepal, All rights reserved
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="design">
+            <a target="_blank" href="http://www.kitenepal.com">Web Design & Development by KITE Nepal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
 
+</html>
