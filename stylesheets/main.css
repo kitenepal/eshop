@@ -317,13 +317,6 @@ border-top-color: #003;*/
   font-family: 'Gudea', sans-serif;
 }
 
-/* line 78, ../sass/module/_footer.scss */
-#social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-
 /* line 83, ../sass/module/_footer.scss */
 #social {
   -webkit-transform: scale(0.8);
@@ -340,38 +333,38 @@ border-top-color: #003;*/
                                                */
 /* line 95, ../sass/module/_footer.scss */
 .social-fb:hover {
-  color: #3B5998;
+  color: #f46600;
 }
 
-/* line 98, ../sass/module/_footer.scss */
+/* line 99, ../sass/module/_footer.scss */
 .social-tw:hover {
-  color: #4099FF;
+  color: #f46600;
 }
 
-/* line 101, ../sass/module/_footer.scss */
+/* line 103, ../sass/module/_footer.scss */
 .social-gp:hover {
-  color: #d34836;
-}
-
-/* line 104, ../sass/module/_footer.scss */
-.social-em:hover {
-  color: #f39c12;
+  color: #f46600;
 }
 
 /* line 107, ../sass/module/_footer.scss */
+.social-em:hover {
+  color: #f46600;
+}
+
+/* line 111, ../sass/module/_footer.scss */
 .nomargin {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 110, ../sass/module/_footer.scss */
+/* line 114, ../sass/module/_footer.scss */
 .footer-bottom {
   background-color: #43165b;
   min-height: 30px;
   width: 100%;
 }
 
-/* line 115, ../sass/module/_footer.scss */
+/* line 119, ../sass/module/_footer.scss */
 .copyright {
   color: #fff;
   line-height: 30px;
@@ -379,7 +372,7 @@ border-top-color: #003;*/
   padding: 7px 0;
 }
 
-/* line 121, ../sass/module/_footer.scss */
+/* line 125, ../sass/module/_footer.scss */
 .design {
   color: #fff;
   line-height: 30px;
@@ -388,12 +381,12 @@ border-top-color: #003;*/
   text-align: right;
 }
 
-/* line 128, ../sass/module/_footer.scss */
+/* line 132, ../sass/module/_footer.scss */
 .design a {
   color: #fff;
 }
 
-/* line 132, ../sass/module/_footer.scss */
+/* line 136, ../sass/module/_footer.scss */
 .nomargin {
   float: right;
   bottom: 0px;
