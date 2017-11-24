@@ -69,109 +69,110 @@ i:hover {
   border: none;
   padding: 8px;
   margin-left: 8px;
+  width: 600px;
 }
 
-/* line 51, ../sass/module/_nav.scss */
+/* line 52, ../sass/module/_nav.scss */
 img {
   vertical-align: top;
   color: white;
 }
 
-/* line 56, ../sass/module/_nav.scss */
+/* line 57, ../sass/module/_nav.scss */
 .dropdown-menu > li > a:hover {
   border-left: 5px solid #f46600;
   transition: 0.3s;
 }
 
 @media (max-width: 768px) {
-  /* line 64, ../sass/module/_nav.scss */
+  /* line 65, ../sass/module/_nav.scss */
   .form-center {
     margin: 0px auto;
     display: flex;
   }
 
-  /* line 68, ../sass/module/_nav.scss */
+  /* line 69, ../sass/module/_nav.scss */
   .form-control {
     display: inline;
   }
 
-  /* line 71, ../sass/module/_nav.scss */
+  /* line 72, ../sass/module/_nav.scss */
   .md--form {
     webkit-box-shadow: none;
     box-shadow: none;
   }
 
-  /* line 75, ../sass/module/_nav.scss */
+  /* line 76, ../sass/module/_nav.scss */
   .navbar-form {
     margin: 0px auto;
     border: none;
   }
 
-  /* line 79, ../sass/module/_nav.scss */
+  /* line 80, ../sass/module/_nav.scss */
   .together {
     display: flex;
     margin: 0px 25px;
   }
 
-  /* line 83, ../sass/module/_nav.scss */
+  /* line 84, ../sass/module/_nav.scss */
   .together > .nav {
     flex: 1;
   }
 
-  /* line 86, ../sass/module/_nav.scss */
+  /* line 87, ../sass/module/_nav.scss */
   .navbar-header {
     margin: 0px;
     padding: 0px;
   }
 
-  /* line 90, ../sass/module/_nav.scss */
+  /* line 91, ../sass/module/_nav.scss */
   .navbar-header > img {
     margin: 10px;
   }
 
-  /* line 93, ../sass/module/_nav.scss */
+  /* line 94, ../sass/module/_nav.scss */
   .navbar-collapse > .nav {
     display: flex;
   }
 
-  /* line 96, ../sass/module/_nav.scss */
+  /* line 97, ../sass/module/_nav.scss */
   .navbar-collapse > .nav > li {
     margin: 0px auto;
   }
 }
 @media (max-width: 433px) {
-  /* line 102, ../sass/module/_nav.scss */
+  /* line 103, ../sass/module/_nav.scss */
   .form-group > .btn-default {
     margin: 0px auto;
     display: block;
     margin-top: 5px;
   }
 
-  /* line 107, ../sass/module/_nav.scss */
+  /* line 108, ../sass/module/_nav.scss */
   .form-group > .md--form {
     margin: 0px auto;
     display: block;
   }
 
-  /* line 111, ../sass/module/_nav.scss */
+  /* line 112, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 20px 0px;
   }
 
-  /* line 114, ../sass/module/_nav.scss */
+  /* line 115, ../sass/module/_nav.scss */
   .search-icon > input {
     border: none;
     padding: 0px;
     margin-left: 0px;
   }
 
-  /* line 119, ../sass/module/_nav.scss */
+  /* line 120, ../sass/module/_nav.scss */
   .together {
     display: flex;
     margin: 0px 0px;
   }
 
-  /* line 123, ../sass/module/_nav.scss */
+  /* line 124, ../sass/module/_nav.scss */
   .search-bar {
     padding: 5px;
   }
