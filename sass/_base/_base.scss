@@ -1,0 +1,8 @@
+a{
+    color: white;
+    transition: 0.3s;
+    &:hover{
+    	color: $orange;
+    	text-decoration: none;
+    }
+}
