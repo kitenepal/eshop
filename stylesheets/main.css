@@ -632,13 +632,12 @@ img {
   height: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 15px;
 }
-/* line 7, ../sass/module/_categoriesmenu.scss */
+/* line 6, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu .center {
   margin-left: 30%;
 }
-/* line 10, ../sass/module/_categoriesmenu.scss */
+/* line 9, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu-Text {
   color: #fff;
   margin-left: 70px;
@@ -646,13 +645,14 @@ img {
   cursor: hand;
   font-size: 1.2em;
 }
-/* line 16, ../sass/module/_categoriesmenu.scss */
+/* line 15, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu-Text:hover {
   color: #f46600;
 }
 
-/* line 23, ../sass/module/_categoriesmenu.scss */
+/* line 22, ../sass/module/_categoriesmenu.scss */
 .well {
+  width: 300px;
   color: #683084;
 }
 /* line 25, ../sass/module/_categoriesmenu.scss */
@@ -669,9 +669,31 @@ img {
   transition: 0.3s;
 }
 
-/* line 37, ../sass/module/_categoriesmenu.scss */
+/* line 1, ../sass/module/_mainItems.scss */
 .mainItems {
-  background: #cccccc;
   width: 834px;
-  height: 427px;
+  height: 427px auto;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+@media (max-width: 1400px) {
+  /* line 10, ../sass/module/_mainItems.scss */
+  .itembox {
+    width: 23.5%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    border: 1px solid #efefef;
+  }
+  /* line 20, ../sass/module/_mainItems.scss */
+  .itembox img {
+    height: 130px;
+    width: 100%;
+    border: 1px solid #efefef;
+  }
 }

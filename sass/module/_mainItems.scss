@@ -1,0 +1,26 @@
+.mainItems{
+  //background: $gray;
+  width: 834px;
+  height: 427px auto;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+@media (max-width: 1400px) {
+  .itembox {
+    width: 23.5%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    border: $border;
+    img {
+      height: 130px;
+      width: 100%;
+      border: $border;
+    }
+  }
+}

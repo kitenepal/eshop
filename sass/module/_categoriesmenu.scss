@@ -3,7 +3,6 @@
 	height: 50px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding-top: 15px;
 	.center{
 		margin-left: 30%;
 	}
@@ -21,6 +20,7 @@
 
 // Sidebar 
 .well{
+	width: 300px;
 	color: $kitecolor;
 	label{
 		padding-left: 10px;
@@ -34,8 +34,3 @@
 	}
 }
 
-.mainItems{
-	background: $gray;
-	width: 834px;
-	height: 427px;
-}
