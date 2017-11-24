@@ -1,6 +1,5 @@
 .CategoriesMenu{
 	background-color: $kitecolor;                                                                                                         
-	width: 100vw;
 	height: 50px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -10,7 +9,7 @@
 	}
 	&-Text{
 		color: #fff;
-		margin-left: 50px;
+		margin-left: 70px;
 		transition: 0.5s;
 		cursor: hand;
 		font-size: 1.2em;
@@ -20,9 +19,7 @@
 	}
 }
 
-
 // Sidebar 
-
 .well{
 	color: $kitecolor;
 	label{
@@ -39,6 +36,6 @@
 
 .mainItems{
 	background: $gray;
-	width: 100%;
-	height: 400px;
+	width: 834px;
+	height: 427px;
 }
