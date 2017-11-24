@@ -218,3 +218,89 @@ img {
 .btn:hover {
   color: white;
 }
+
+/* line 1, ../sass/module/_product.scss */
+.product {
+  margin: 20px;
+}
+
+/* line 6, ../sass/module/_product.scss */
+.share_btn-twitter {
+  background-color: #31a7df;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* line 13, ../sass/module/_product.scss */
+.share_btn-twitter:hover {
+  background: #fff;
+  color: #31a7df;
+}
+
+/* line 18, ../sass/module/_product.scss */
+.share_btn-facebook {
+  background-color: #445fa2;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* line 25, ../sass/module/_product.scss */
+.share_btn-facebook:hover {
+  background: #fff;
+  color: #445fa2;
+}
+
+/* line 30, ../sass/module/_product.scss */
+.share_btn-googleplus {
+  background-color: #e45034;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* line 37, ../sass/module/_product.scss */
+.share_btn-googleplus:hover {
+  background: #fff;
+  color: #e45034;
+}
+
+/* line 42, ../sass/module/_product.scss */
+.share-to-friend {
+  padding-top: 10px;
+}
+
+/* line 46, ../sass/module/_product.scss */
+.quantity_buy {
+  background: #f6f6f6;
+  padding: 15px;
+}
+
+/* line 51, ../sass/module/_product.scss */
+.increase-btn, .decrease-btn {
+  margin-top: 8px;
+}
+
+/* line 55, ../sass/module/_product.scss */
+.cart-btn, .buy-btn {
+  background: #3f145b;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* line 61, ../sass/module/_product.scss */
+.order-on-phone {
+  background: #f6f6f6;
+  padding: 15px;
+}
+
+/* line 66, ../sass/module/_product.scss */
+.order-on-phone h3 {
+  color: #45b549;
+}
+
+/* line 70, ../sass/module/_product.scss */
+.order-on-phone p {
+  text-align: justify;
+}
