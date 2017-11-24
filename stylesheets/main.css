@@ -67,117 +67,117 @@ i:hover {
 /* line 45, ../sass/module/_nav.scss */
 .search-icon > input {
   border: none;
-  padding: 8px;
   margin-left: 8px;
+  margin-top: 5px;
   width: 600px;
 }
 
-/* line 52, ../sass/module/_nav.scss */
+/* line 53, ../sass/module/_nav.scss */
 input:focus {
   outline: none;
 }
 
-/* line 56, ../sass/module/_nav.scss */
+/* line 57, ../sass/module/_nav.scss */
 img {
   vertical-align: top;
   color: white;
 }
 
-/* line 61, ../sass/module/_nav.scss */
+/* line 62, ../sass/module/_nav.scss */
 .dropdown-menu > li > a:hover {
   border-left: 5px solid #f46600;
   transition: 0.3s;
 }
 
 @media (max-width: 768px) {
-  /* line 69, ../sass/module/_nav.scss */
+  /* line 70, ../sass/module/_nav.scss */
   .form-center {
     margin: 0px auto;
     display: flex;
   }
 
-  /* line 73, ../sass/module/_nav.scss */
+  /* line 74, ../sass/module/_nav.scss */
   .form-control {
     display: inline;
   }
 
-  /* line 76, ../sass/module/_nav.scss */
+  /* line 77, ../sass/module/_nav.scss */
   .md--form {
     webkit-box-shadow: none;
     box-shadow: none;
   }
 
-  /* line 80, ../sass/module/_nav.scss */
+  /* line 81, ../sass/module/_nav.scss */
   .navbar-form {
     margin: 0px auto;
     border: none;
   }
 
-  /* line 84, ../sass/module/_nav.scss */
+  /* line 85, ../sass/module/_nav.scss */
   .together {
     display: flex;
     margin: 0px 25px;
   }
 
-  /* line 88, ../sass/module/_nav.scss */
+  /* line 89, ../sass/module/_nav.scss */
   .together > .nav {
     flex: 1;
   }
 
-  /* line 91, ../sass/module/_nav.scss */
+  /* line 92, ../sass/module/_nav.scss */
   .navbar-header {
     margin: 0px;
     padding: 0px;
   }
 
-  /* line 95, ../sass/module/_nav.scss */
+  /* line 96, ../sass/module/_nav.scss */
   .navbar-header > img {
     margin: 10px;
   }
 
-  /* line 98, ../sass/module/_nav.scss */
+  /* line 99, ../sass/module/_nav.scss */
   .navbar-collapse > .nav {
     display: flex;
   }
 
-  /* line 101, ../sass/module/_nav.scss */
+  /* line 102, ../sass/module/_nav.scss */
   .navbar-collapse > .nav > li {
     margin: 0px auto;
   }
 }
 @media (max-width: 433px) {
-  /* line 107, ../sass/module/_nav.scss */
+  /* line 108, ../sass/module/_nav.scss */
   .form-group > .btn-default {
     margin: 0px auto;
     display: block;
     margin-top: 5px;
   }
 
-  /* line 112, ../sass/module/_nav.scss */
+  /* line 113, ../sass/module/_nav.scss */
   .form-group > .md--form {
     margin: 0px auto;
     display: block;
   }
 
-  /* line 116, ../sass/module/_nav.scss */
+  /* line 117, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 20px 0px;
   }
 
-  /* line 119, ../sass/module/_nav.scss */
+  /* line 120, ../sass/module/_nav.scss */
   .search-icon > input {
     border: none;
     padding: 0px;
     margin-left: 0px;
   }
 
-  /* line 124, ../sass/module/_nav.scss */
+  /* line 125, ../sass/module/_nav.scss */
   .together {
     display: flex;
     margin: 0px 0px;
   }
 
-  /* line 128, ../sass/module/_nav.scss */
+  /* line 129, ../sass/module/_nav.scss */
   .search-bar {
     padding: 5px;
   }
@@ -275,8 +275,28 @@ img {
     color: #640000;
   }
 }
+/* line 1, ../sass/module/_offers.scss */
+.productbox {
+  width: 18.69%;
+  background-color: #fff;
+  padding: 15px;
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  border: 1px solid #efefef;
+}
+/* line 12, ../sass/module/_offers.scss */
+.productbox img {
+  height: 130px;
+  width: 100%;
+  border: 1px solid #efefef;
+}
+
 @media (max-width: 1400px) {
-  /* line 2, ../sass/module/_offers.scss */
+  /* line 20, ../sass/module/_offers.scss */
   .productbox {
     width: 18.69%;
     background-color: #fff;
@@ -289,7 +309,7 @@ img {
     box-shadow: 0 8px 6px -6px #999;
     border: 1px solid #efefef;
   }
-  /* line 13, ../sass/module/_offers.scss */
+  /* line 31, ../sass/module/_offers.scss */
   .productbox img {
     height: 130px;
     width: 100%;
@@ -297,67 +317,67 @@ img {
   }
 }
 @media (max-width: 768px) {
-  /* line 22, ../sass/module/_offers.scss */
+  /* line 40, ../sass/module/_offers.scss */
   .productbox {
     width: 31%;
     float: left;
   }
-  /* line 25, ../sass/module/_offers.scss */
+  /* line 43, ../sass/module/_offers.scss */
   .productbox img {
     width: 100%;
   }
 
-  /* line 30, ../sass/module/_offers.scss */
+  /* line 48, ../sass/module/_offers.scss */
   .firstproduct {
     margin-left: 15px;
   }
 }
 @media (max-width: 500px) {
-  /* line 36, ../sass/module/_offers.scss */
+  /* line 54, ../sass/module/_offers.scss */
   .productbox {
     width: 100%;
   }
-  /* line 38, ../sass/module/_offers.scss */
+  /* line 56, ../sass/module/_offers.scss */
   .productbox img {
     height: 250px;
     width: 100%;
   }
 }
-/* line 45, ../sass/module/_offers.scss */
+/* line 63, ../sass/module/_offers.scss */
 .firstproduct {
   margin-left: 15px;
 }
 
-/* line 49, ../sass/module/_offers.scss */
+/* line 67, ../sass/module/_offers.scss */
 .producttitle {
   font-weight: bold;
   padding: 5px 0 5px 0;
 }
 
-/* line 54, ../sass/module/_offers.scss */
+/* line 72, ../sass/module/_offers.scss */
 .productprice {
   border-top: 1px solid #dadada;
   padding-top: 5px;
 }
 
-/* line 59, ../sass/module/_offers.scss */
+/* line 77, ../sass/module/_offers.scss */
 .pricetext {
   font-weight: bold;
   font-size: 1.4em;
 }
 
-/* line 64, ../sass/module/_offers.scss */
+/* line 82, ../sass/module/_offers.scss */
 .btn {
   transition: 0.5s;
   background: #f46600;
   color: white;
 }
-/* line 68, ../sass/module/_offers.scss */
+/* line 86, ../sass/module/_offers.scss */
 .btn:hover {
   color: white;
 }
 
-/* line 74, ../sass/module/_offers.scss */
+/* line 92, ../sass/module/_offers.scss */
 .productbox.two {
   background-repeat: no-repeat;
   background-position: -350px -350px, 0 0;
@@ -373,7 +393,7 @@ img {
   transition: background-position 0s ease;
 }
 
-/* line 107, ../sass/module/_offers.scss */
+/* line 125, ../sass/module/_offers.scss */
 .productbox.two:hover {
   cursor: pointer;
   background-position: 0 0, 0 0;
