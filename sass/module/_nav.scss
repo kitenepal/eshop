@@ -49,6 +49,10 @@ i:hover {
   width: 600px;
 }
 
+input:focus{
+  outline: none;
+}
+
 img {
   vertical-align: top;
   color: white;
