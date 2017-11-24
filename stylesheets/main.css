@@ -391,3 +391,283 @@ border-top-color: #003;*/
   float: right;
   bottom: 0px;
 }
+/* line 1, ../sass/module/_nav.scss */
+.md--navbar {
+  background-color: #683084;
+  border-color: #683084;
+  border-radius: 0px;
+  color: white;
+}
+
+/* line 7, ../sass/module/_nav.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* line 11, ../sass/module/_nav.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #AAAAAA;
+}
+
+/* line 14, ../sass/module/_nav.scss */
+.navbar-header {
+  margin-top: 5px;
+  padding-right: 5px;
+}
+
+/* line 19, ../sass/module/_nav.scss */
+.md--form {
+  margin: 8px;
+}
+
+/* line 23, ../sass/module/_nav.scss */
+.md--fa {
+  font-size: 1.4em;
+}
+
+/* line 26, ../sass/module/_nav.scss */
+.search-bar {
+  background-color: #ffffff;
+  display: initial;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 32, ../sass/module/_nav.scss */
+.search-icon {
+  color: #000000;
+}
+
+/* line 35, ../sass/module/_nav.scss */
+i:hover {
+  cursor: pointer;
+}
+
+/* line 39, ../sass/module/_nav.scss */
+.search-icon > input {
+  border: none;
+  padding: 8px;
+  margin-left: 8px;
+}
+
+/* line 45, ../sass/module/_nav.scss */
+img {
+  vertical-align: top;
+  color: white;
+}
+
+/* line 50, ../sass/module/_nav.scss */
+.dropdown-menu > li > a:hover {
+  border-left: 5px solid #f46600;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  /* line 60, ../sass/module/_nav.scss */
+  .form-center {
+    margin: 0px auto;
+    display: flex;
+  }
+
+  /* line 64, ../sass/module/_nav.scss */
+  .form-control {
+    display: inline;
+  }
+
+  /* line 67, ../sass/module/_nav.scss */
+  .md--form {
+    webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /* line 71, ../sass/module/_nav.scss */
+  .navbar-form {
+    margin: 0px auto;
+    border: none;
+  }
+
+  /* line 75, ../sass/module/_nav.scss */
+  .together {
+    display: flex;
+    margin: 0px 25px;
+  }
+
+  /* line 79, ../sass/module/_nav.scss */
+  .together > .nav {
+    flex: 1;
+  }
+
+  /* line 82, ../sass/module/_nav.scss */
+  .navbar-header {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* line 86, ../sass/module/_nav.scss */
+  .navbar-header > img {
+    margin: 10px;
+  }
+
+  /* line 89, ../sass/module/_nav.scss */
+  .navbar-collapse > .nav {
+    display: flex;
+  }
+
+  /* line 92, ../sass/module/_nav.scss */
+  .navbar-collapse > .nav > li {
+    margin: 0px auto;
+  }
+}
+@media (max-width: 433px) {
+  /* line 98, ../sass/module/_nav.scss */
+  .form-group > .btn-default {
+    margin: 0px auto;
+    display: block;
+    margin-top: 5px;
+  }
+
+  /* line 103, ../sass/module/_nav.scss */
+  .form-group > .md--form {
+    margin: 0px auto;
+    display: block;
+  }
+
+  /* line 107, ../sass/module/_nav.scss */
+  .navbar-form {
+    padding: 20px 0px;
+  }
+
+  /* line 110, ../sass/module/_nav.scss */
+  .search-icon > input {
+    border: none;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  /* line 115, ../sass/module/_nav.scss */
+  .together {
+    display: flex;
+    margin: 0px 0px;
+  }
+
+  /* line 119, ../sass/module/_nav.scss */
+  .search-bar {
+    padding: 5px;
+  }
+}
+/* line 1, ../sass/module/_slider.scss */
+.carousel {
+  height: 388px;
+  border: 1px solid #cccccc;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 8, ../sass/module/_slider.scss */
+  .carousel {
+    height: auto;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 16, ../sass/module/_slider.scss */
+  .carousel {
+    height: auto;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    position: relative;
+  }
+}
+/* line 2, ../sass/module/_hotdeal.scss */
+.hotdeal--image {
+  background-color: #cccccc;
+  max-width: 100%;
+  height: 333px;
+  border: 1px solid #cccccc;
+}
+/* line 8, ../sass/module/_hotdeal.scss */
+.hotdeal--heading {
+  font-weight: bold;
+  color: #640000;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 17, ../sass/module/_hotdeal.scss */
+  .hotdeal--image {
+    background-color: #cccccc;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+  }
+  /* line 23, ../sass/module/_hotdeal.scss */
+  .hotdeal--heading {
+    font-weight: bold;
+    color: #640000;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 32, ../sass/module/_hotdeal.scss */
+  .hotdeal--image {
+    background-color: #cccccc;
+    width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+  }
+  /* line 38, ../sass/module/_hotdeal.scss */
+  .hotdeal--heading {
+    font-weight: bold;
+    color: #640000;
+  }
+}
+/* line 1, ../sass/module/_offers.scss */
+.productbox {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 8px 6px -6px  #999;
+  -moz-box-shadow: 0 8px 6px -6px  #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+/* line 8, ../sass/module/_offers.scss */
+.productbox img {
+  height: 130px;
+}
+
+/* line 13, ../sass/module/_offers.scss */
+.producttitle {
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+}
+
+/* line 18, ../sass/module/_offers.scss */
+.productprice {
+  border-top: 1px solid #dadada;
+  padding-top: 5px;
+}
+
+/* line 23, ../sass/module/_offers.scss */
+.pricetext {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+@media (max-width: 500px) {
+  /* line 30, ../sass/module/_offers.scss */
+  .productbox img {
+    height: 250px;
+    width: 100%;
+  }
+}
+/* line 37, ../sass/module/_offers.scss */
+.btn {
+  transition: 0.5s;
+  background: #f46600;
+  color: white;
+}
+/* line 41, ../sass/module/_offers.scss */
+.btn:hover {
+  color: white;
+}
+
