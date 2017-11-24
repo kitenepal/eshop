@@ -630,14 +630,15 @@ img {
 .CategoriesMenu {
   background-color: #683084;
   height: 50px;
+  padding-top: 13px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 6, ../sass/module/_categoriesmenu.scss */
+/* line 7, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu .center {
   margin-left: 30%;
 }
-/* line 9, ../sass/module/_categoriesmenu.scss */
+/* line 10, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu-Text {
   color: #fff;
   margin-left: 70px;
@@ -645,25 +646,25 @@ img {
   cursor: hand;
   font-size: 1.2em;
 }
-/* line 15, ../sass/module/_categoriesmenu.scss */
+/* line 16, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu-Text:hover {
   color: #f46600;
 }
 
-/* line 22, ../sass/module/_categoriesmenu.scss */
+/* line 23, ../sass/module/_categoriesmenu.scss */
 .well {
   width: 300px;
   color: #683084;
 }
-/* line 25, ../sass/module/_categoriesmenu.scss */
+/* line 26, ../sass/module/_categoriesmenu.scss */
 .well label {
   padding-left: 10px;
 }
-/* line 28, ../sass/module/_categoriesmenu.scss */
+/* line 29, ../sass/module/_categoriesmenu.scss */
 .well a {
   color: #3d3d3d;
 }
-/* line 31, ../sass/module/_categoriesmenu.scss */
+/* line 32, ../sass/module/_categoriesmenu.scss */
 .well a:hover {
   border-left: 5px solid #f46600;
   transition: 0.3s;
@@ -689,8 +690,30 @@ img {
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
     border: 1px solid #efefef;
+    float: left;
   }
-  /* line 20, ../sass/module/_mainItems.scss */
+  /* line 21, ../sass/module/_mainItems.scss */
+  .itembox img {
+    height: 130px;
+    width: 100%;
+    border: 1px solid #efefef;
+  }
+}
+@media (max-width: 768px) {
+  /* line 30, ../sass/module/_mainItems.scss */
+  .itembox {
+    width: 20.5%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    border: 1px solid #efefef;
+    float: left;
+  }
+  /* line 41, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
