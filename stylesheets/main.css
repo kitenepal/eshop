@@ -812,19 +812,18 @@ a.socialIcon:hover,
 /* line 23, ../sass/module/_categoriesmenu.scss */
 .well {
   margin-top: 10px;
-  width: 300px;
   color: #683084;
 }
-/* line 27, ../sass/module/_categoriesmenu.scss */
+/* line 26, ../sass/module/_categoriesmenu.scss */
 .well label {
   padding-left: 10px;
   cursor: pointer;
 }
-/* line 31, ../sass/module/_categoriesmenu.scss */
+/* line 30, ../sass/module/_categoriesmenu.scss */
 .well a {
   color: #3d3d3d;
 }
-/* line 34, ../sass/module/_categoriesmenu.scss */
+/* line 33, ../sass/module/_categoriesmenu.scss */
 .well a:hover {
   border-left: 5px solid #f46600;
   transition: 0.3s;
@@ -839,6 +838,11 @@ a.socialIcon:hover,
 }
 
 /* line 9, ../sass/module/_mainItems.scss */
+.pagination--items {
+  margin: 0px auto;
+}
+
+/* line 13, ../sass/module/_mainItems.scss */
 .itembox {
   width: 23%;
   background-color: #fff;
@@ -851,7 +855,7 @@ a.socialIcon:hover,
   border: 1px solid #efefef;
   float: left;
 }
-/* line 20, ../sass/module/_mainItems.scss */
+/* line 24, ../sass/module/_mainItems.scss */
 .itembox img {
   height: 130px;
   width: 100%;
@@ -859,7 +863,7 @@ a.socialIcon:hover,
 }
 
 @media (max-width: 1400px) {
-  /* line 28, ../sass/module/_mainItems.scss */
+  /* line 32, ../sass/module/_mainItems.scss */
   .itembox {
     width: 23%;
     background-color: #fff;
@@ -872,7 +876,7 @@ a.socialIcon:hover,
     border: 1px solid #efefef;
     float: left;
   }
-  /* line 39, ../sass/module/_mainItems.scss */
+  /* line 43, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
@@ -880,7 +884,7 @@ a.socialIcon:hover,
   }
 }
 @media (max-width: 768px) {
-  /* line 48, ../sass/module/_mainItems.scss */
+  /* line 53, ../sass/module/_mainItems.scss */
   .itembox {
     width: 20.5%;
     background-color: #fff;
@@ -893,7 +897,7 @@ a.socialIcon:hover,
     border: 1px solid #efefef;
     float: left;
   }
-  /* line 59, ../sass/module/_mainItems.scss */
+  /* line 64, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
@@ -901,17 +905,17 @@ a.socialIcon:hover,
   }
 }
 @media (max-width: 375px) {
-  /* line 68, ../sass/module/_mainItems.scss */
+  /* line 73, ../sass/module/_mainItems.scss */
   .mainItems {
     width: 200px;
   }
 
-  /* line 71, ../sass/module/_mainItems.scss */
+  /* line 76, ../sass/module/_mainItems.scss */
   .itembox {
     width: 100%;
     float: left;
   }
-  /* line 74, ../sass/module/_mainItems.scss */
+  /* line 79, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
