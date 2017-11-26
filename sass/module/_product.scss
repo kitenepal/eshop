@@ -11,8 +11,10 @@
 }
 
 .share_btn-twitter:hover {
+  transition: 0.5s;
   background: #fff;
   color: #31a7df;
+  box-shadow: 0px 5px 5px #888888;
 }
 
 .share_btn-facebook {
@@ -23,8 +25,10 @@
 }
 
 .share_btn-facebook:hover {
+  transition: 0.5s;
   background: #fff;
   color: #445fa2;
+  box-shadow: 0px 5px 5px #888888;
 }
 
 .share_btn-googleplus {
@@ -35,17 +39,23 @@
 }
 
 .share_btn-googleplus:hover {
+  transition: 0.5s;
   background: #fff;
   color: #e45034;
+  box-shadow: 0px 5px 5px #888888;
 }
 
-.share-to-friend {
+.share-to-friend{
   padding-top: 10px;
+}
+
+.share-to-friend a{
+  color: #45b549;
 }
 
 .quantity_buy {
   background: #f6f6f6;
-  padding: 15px;
+  padding: 20px;
 }
 
 .increase-btn,
@@ -55,9 +65,9 @@
 
 .cart-btn,
 .buy-btn {
-  background: #3f145b;
+  background: #f46600;
   color: #fff;
-  border-radius: 10px;
+  
 }
 
 .order-on-phone {
