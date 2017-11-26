@@ -479,14 +479,15 @@ img {
 .order-on-phone {
   background: #f6f6f6;
   padding: 15px;
+  margin-top: 15px;
 }
 
-/* line 68, ../sass/module/_product.scss */
+/* line 69, ../sass/module/_product.scss */
 .order-on-phone h3 {
   color: #45b549;
 }
 
-/* line 72, ../sass/module/_product.scss */
+/* line 73, ../sass/module/_product.scss */
 .order-on-phone p {
   text-align: justify;
 }
