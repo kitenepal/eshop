@@ -10,6 +10,16 @@ a:hover {
   color: #f46600;
   text-decoration: none;
 }
+/* line 8, ../sass/_base/_base.scss */
+a:active {
+  color: #f46600;
+  background-color: none;
+}
+/* line 12, ../sass/_base/_base.scss */
+a:focus {
+  color: #f46600;
+  background-color: none;
+}
 
 /* line 1, ../sass/module/_nav.scss */
 .md--navbar {
@@ -27,7 +37,7 @@ a:hover {
 
 /* line 13, ../sass/module/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #AAAAAA;
+  color: #cccccc;
 }
 
 /* line 17, ../sass/module/_nav.scss */
@@ -652,6 +662,118 @@ img {
   bottom: 0px;
 }
 
+/* footer social icons */
+/* line 160, ../sass/module/_footer.scss */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+/* line 167, ../sass/module/_footer.scss */
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+/* line 175, ../sass/module/_footer.scss */
+.social-network a.icoRss:hover {
+  background-color: #F56505;
+}
+
+/* line 179, ../sass/module/_footer.scss */
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+/* line 183, ../sass/module/_footer.scss */
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+
+/* line 187, ../sass/module/_footer.scss */
+.social-network a.icoGoogle:hover {
+  background-color: #BD3518;
+}
+
+/* line 191, ../sass/module/_footer.scss */
+.social-network a.icoVimeo:hover {
+  background-color: #0590B8;
+}
+
+/* line 195, ../sass/module/_footer.scss */
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+/* line 199, ../sass/module/_footer.scss */
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+/* line 208, ../sass/module/_footer.scss */
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+/* line 213, ../sass/module/_footer.scss */
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+/* line 226, ../sass/module/_footer.scss */
+.social-circle li i {
+  margin: 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 232, ../sass/module/_footer.scss */
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* line 245, ../sass/module/_footer.scss */
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+/* line 254, ../sass/module/_footer.scss */
+.social-circle a {
+  border: 1px solid #cccccc;
+}
+
 /* line 1, ../sass/module/_categoriesmenu.scss */
 .CategoriesMenu {
   background-color: #683084;
@@ -685,12 +807,13 @@ img {
 /* line 26, ../sass/module/_categoriesmenu.scss */
 .well label {
   padding-left: 10px;
+  cursor: pointer;
 }
-/* line 29, ../sass/module/_categoriesmenu.scss */
+/* line 30, ../sass/module/_categoriesmenu.scss */
 .well a {
   color: #3d3d3d;
 }
-/* line 32, ../sass/module/_categoriesmenu.scss */
+/* line 33, ../sass/module/_categoriesmenu.scss */
 .well a:hover {
   border-left: 5px solid #f46600;
   transition: 0.3s;
