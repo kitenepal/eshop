@@ -345,11 +345,11 @@ img {
 @media (max-width: 500px) {
   /* line 54, ../sass/module/_offers.scss */
   .productbox {
-    width: 100%;
+    width: 95%;
   }
   /* line 56, ../sass/module/_offers.scss */
   .productbox img {
-    height: 250px;
+    height: 210px;
     width: 100%;
   }
 }
@@ -831,18 +831,15 @@ a.socialIcon:hover,
 
 /* line 1, ../sass/module/_mainItems.scss */
 .mainItems {
-  width: 820px;
-  height: 325px auto;
   margin-bottom: 20px;
-  margin-top: -5px;
 }
 
-/* line 9, ../sass/module/_mainItems.scss */
+/* line 6, ../sass/module/_mainItems.scss */
 .pagination--items {
   margin: 0px auto;
 }
 
-/* line 13, ../sass/module/_mainItems.scss */
+/* line 10, ../sass/module/_mainItems.scss */
 .itembox {
   width: 23%;
   background-color: #fff;
@@ -855,7 +852,7 @@ a.socialIcon:hover,
   border: 1px solid #efefef;
   float: left;
 }
-/* line 24, ../sass/module/_mainItems.scss */
+/* line 21, ../sass/module/_mainItems.scss */
 .itembox img {
   height: 130px;
   width: 100%;
@@ -863,7 +860,7 @@ a.socialIcon:hover,
 }
 
 @media (max-width: 1400px) {
-  /* line 32, ../sass/module/_mainItems.scss */
+  /* line 29, ../sass/module/_mainItems.scss */
   .itembox {
     width: 23%;
     background-color: #fff;
@@ -876,7 +873,7 @@ a.socialIcon:hover,
     border: 1px solid #efefef;
     float: left;
   }
-  /* line 43, ../sass/module/_mainItems.scss */
+  /* line 40, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
@@ -884,7 +881,7 @@ a.socialIcon:hover,
   }
 }
 @media (max-width: 768px) {
-  /* line 53, ../sass/module/_mainItems.scss */
+  /* line 50, ../sass/module/_mainItems.scss */
   .itembox {
     width: 20.5%;
     background-color: #fff;
@@ -897,7 +894,7 @@ a.socialIcon:hover,
     border: 1px solid #efefef;
     float: left;
   }
-  /* line 64, ../sass/module/_mainItems.scss */
+  /* line 61, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
@@ -905,17 +902,17 @@ a.socialIcon:hover,
   }
 }
 @media (max-width: 375px) {
-  /* line 73, ../sass/module/_mainItems.scss */
+  /* line 70, ../sass/module/_mainItems.scss */
   .mainItems {
     width: 200px;
   }
 
-  /* line 76, ../sass/module/_mainItems.scss */
+  /* line 73, ../sass/module/_mainItems.scss */
   .itembox {
     width: 100%;
     float: left;
   }
-  /* line 79, ../sass/module/_mainItems.scss */
+  /* line 76, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
