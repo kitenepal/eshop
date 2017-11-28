@@ -418,7 +418,12 @@ img {
   margin: 20px;
 }
 
-/* line 6, ../sass/module/_product.scss */
+/* line 5, ../sass/module/_product.scss */
+.product img:hover {
+  border: 1px solid #e9e9e9;
+}
+
+/* line 9, ../sass/module/_product.scss */
 .share_btn-twitter {
   background-color: #31a7df;
   color: #fff;
@@ -426,7 +431,7 @@ img {
   font-weight: bold;
 }
 
-/* line 13, ../sass/module/_product.scss */
+/* line 16, ../sass/module/_product.scss */
 .share_btn-twitter:hover {
   transition: 0.5s;
   background: #fff;
@@ -434,7 +439,7 @@ img {
   box-shadow: 0px 5px 5px #888888;
 }
 
-/* line 20, ../sass/module/_product.scss */
+/* line 23, ../sass/module/_product.scss */
 .share_btn-facebook {
   background-color: #445fa2;
   color: #fff;
@@ -442,7 +447,7 @@ img {
   font-weight: bold;
 }
 
-/* line 27, ../sass/module/_product.scss */
+/* line 30, ../sass/module/_product.scss */
 .share_btn-facebook:hover {
   transition: 0.5s;
   background: #fff;
@@ -450,7 +455,7 @@ img {
   box-shadow: 0px 5px 5px #888888;
 }
 
-/* line 34, ../sass/module/_product.scss */
+/* line 37, ../sass/module/_product.scss */
 .share_btn-googleplus {
   background-color: #e45034;
   color: #fff;
@@ -458,7 +463,7 @@ img {
   font-weight: bold;
 }
 
-/* line 41, ../sass/module/_product.scss */
+/* line 44, ../sass/module/_product.scss */
 .share_btn-googleplus:hover {
   transition: 0.5s;
   background: #fff;
@@ -466,50 +471,70 @@ img {
   box-shadow: 0px 5px 5px #888888;
 }
 
-/* line 48, ../sass/module/_product.scss */
+/* line 51, ../sass/module/_product.scss */
 .share-to-friend {
   padding-top: 10px;
 }
 
-/* line 52, ../sass/module/_product.scss */
+/* line 55, ../sass/module/_product.scss */
 .share-to-friend a {
   color: #45b549;
 }
 
-/* line 56, ../sass/module/_product.scss */
+/* line 59, ../sass/module/_product.scss */
 .quantity_buy {
   background: #f6f6f6;
   padding: 20px;
 }
 
-/* line 61, ../sass/module/_product.scss */
+/* line 64, ../sass/module/_product.scss */
 .increase-btn,
 .decrease-btn {
   margin-top: 8px;
 }
 
-/* line 66, ../sass/module/_product.scss */
+/* line 69, ../sass/module/_product.scss */
 .cart-btn,
 .buy-btn {
   background: #f46600;
   color: #fff;
 }
 
-/* line 73, ../sass/module/_product.scss */
+/* line 76, ../sass/module/_product.scss */
 .order-on-phone {
   background: #f6f6f6;
   padding: 15px;
   margin-top: 15px;
 }
 
-/* line 79, ../sass/module/_product.scss */
+/* line 82, ../sass/module/_product.scss */
 .order-on-phone h3 {
   color: #45b549;
 }
 
-/* line 83, ../sass/module/_product.scss */
+/* line 86, ../sass/module/_product.scss */
 .order-on-phone p {
   text-align: justify;
+}
+
+/* line 92, ../sass/module/_product.scss */
+.magnify {
+  position: relative;
+  cursor: none;
+}
+
+/* line 97, ../sass/module/_product.scss */
+.magnify-large {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
 }
 
 /* line 3, ../sass/module/_footer.scss */
