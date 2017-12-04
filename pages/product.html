@@ -13,9 +13,11 @@
   <script type="text/javascript" src="../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../js/product.js"></script>
   <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
+    <a href="javascript:" id="top"><i class="icon-chevron-up"></i></a>
     <!-- Navigation bar -->
   <nav class="navbar navbar-default md--navbar">
     <div class="container-fluid">
@@ -74,14 +76,13 @@
   <div class="container-fluid">
     <div class="row product">
       <div class="col-md-5">
-        <div class="col-sm-3" id="gal1">
-          <a href="#">
-            <img src="../image/2.jpg" alt="" width="100%">
-          </a>
-          <a href="#"><img src="../image/3.jpg" alt="" width="100%"></a>
+        <div class="col-sm-3" id="sub_img" onclick="changeImage(event)">
+            <img src="../image/main watch.jpg" alt="" width="100%"><br/>
+            <img src="../image/2.jpg" alt="" width="100%"><br/>
+            <img src="../image/3.jpg" alt="" width="100%">
         </div>
         <div class="col-sm-9">
-          <img data-toggle="magnify" src="../image/main watch.jpg" alt="" width="100%">
+          <img id="mainImage" data-toggle="magnify" src="../image/main watch.jpg" alt="" width="100%">
         </div>
       </div>
       <div class="col-md-4">

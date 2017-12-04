@@ -128,3 +128,12 @@ $("#zoom_03").bind("click", function(e) {
     $.fancybox(ez.getGalleryList());
   return false;
 });
+
+function changeImage(event){
+    event = event || window.event;
+
+    var targetElement = event.target || event.srcElement;
+
+
+    document.getElementById("mainImage").src = targetElement.getAttribute("src");
+}
