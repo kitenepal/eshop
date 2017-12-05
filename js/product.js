@@ -134,6 +134,5 @@ function changeImage(event){
 
     var targetElement = event.target || event.srcElement;
 
-
     document.getElementById("mainImage").src = targetElement.getAttribute("src");
 }

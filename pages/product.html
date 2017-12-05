@@ -14,6 +14,10 @@
   <script type="text/javascript" src="../js/product.js"></script>
   <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 
 <body>
@@ -76,13 +80,13 @@
   <div class="container-fluid">
     <div class="row product">
       <div class="col-md-5">
-        <div class="col-sm-3" id="sub_img" onclick="changeImage(event)">
-            <img src="../image/main watch.jpg" alt="" width="100%"><br/>
-            <img src="../image/2.jpg" alt="" width="100%"><br/>
+        <div class="col-sm-3 sub_img" id="sub_img" onclick="changeImage(event)">
+            <img src="../image/main watch.jpg" alt="" width="100%">
+            <img src="../image/2.jpg" alt="" width="100%">
             <img src="../image/3.jpg" alt="" width="100%">
         </div>
         <div class="col-sm-9">
-          <img id="mainImage" data-toggle="magnify" src="../image/main watch.jpg" alt="" width="100%">
+          <img id="mainImage" src="../image/main watch.jpg" alt="" width="100%" data-toggle="magnify">
         </div>
       </div>
       <div class="col-md-4">
