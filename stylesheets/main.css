@@ -175,37 +175,48 @@ i:hover {
     text-align: center;
     margin-top: 0px;
   }
+
+  /* line 118, ../sass/module/_nav.scss */
+  .navbar-collapse > .nav {
+    flex-direction: column;
+  }
 }
 @media (max-width: 433px) {
-  /* line 121, ../sass/module/_nav.scss */
+  /* line 124, ../sass/module/_nav.scss */
   .form-group > .btn-default {
     margin: 0px auto;
     display: block;
     margin-top: 5px;
   }
 
-  /* line 126, ../sass/module/_nav.scss */
+  /* line 129, ../sass/module/_nav.scss */
   .form-group > .md--form {
     margin: 0px auto;
     display: block;
   }
 
-  /* line 130, ../sass/module/_nav.scss */
+  /* line 133, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 20px 0px;
   }
 
-  /* line 133, ../sass/module/_nav.scss */
+  /* line 136, ../sass/module/_nav.scss */
   .search-icon > input {
     border: none;
     padding: 0px;
     margin-left: 0px;
   }
 
-  /* line 138, ../sass/module/_nav.scss */
+  /* line 141, ../sass/module/_nav.scss */
   .together {
     display: flex;
     margin: 0px 0px;
+  }
+}
+@media (max-width: 300px) {
+  /* line 147, ../sass/module/_nav.scss */
+  .search-icon > input {
+    width: 120px;
   }
 }
 /* line 1, ../sass/module/_slider.scss */
@@ -562,18 +573,6 @@ i:hover {
     width: 50px;
   }
 }
-/* line 120, ../sass/module/_product.scss */
-p, .owl-carousel .owl-item {
-  text-align: center;
-}
-
-/* line 123, ../sass/module/_product.scss */
-.zoom {
-  width: auto !important;
-  height: 400px;
-  display: inline-block !important;
-}
-
 /* line 3, ../sass/module/_footer.scss */
 .bottom-footer {
   background-color: #683084;
