@@ -115,6 +115,9 @@ i:hover {
     text-align: center;
     margin-top: 0px;
   }
+  .navbar-collapse > .nav {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 433px) {
@@ -138,5 +141,10 @@ i:hover {
   .together {
     display: flex;
     margin: 0px 0px;
+  }
+}
+@media (max-width: 300px){
+  .search-icon > input {
+    width: 120px;
   }
 }

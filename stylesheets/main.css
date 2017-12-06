@@ -175,37 +175,48 @@ i:hover {
     text-align: center;
     margin-top: 0px;
   }
+
+  /* line 118, ../sass/module/_nav.scss */
+  .navbar-collapse > .nav {
+    flex-direction: column;
+  }
 }
 @media (max-width: 433px) {
-  /* line 121, ../sass/module/_nav.scss */
+  /* line 124, ../sass/module/_nav.scss */
   .form-group > .btn-default {
     margin: 0px auto;
     display: block;
     margin-top: 5px;
   }
 
-  /* line 126, ../sass/module/_nav.scss */
+  /* line 129, ../sass/module/_nav.scss */
   .form-group > .md--form {
     margin: 0px auto;
     display: block;
   }
 
-  /* line 130, ../sass/module/_nav.scss */
+  /* line 133, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 20px 0px;
   }
 
-  /* line 133, ../sass/module/_nav.scss */
+  /* line 136, ../sass/module/_nav.scss */
   .search-icon > input {
     border: none;
     padding: 0px;
     margin-left: 0px;
   }
 
-  /* line 138, ../sass/module/_nav.scss */
+  /* line 141, ../sass/module/_nav.scss */
   .together {
     display: flex;
     margin: 0px 0px;
+  }
+}
+@media (max-width: 300px) {
+  /* line 147, ../sass/module/_nav.scss */
+  .search-icon > input {
+    width: 120px;
   }
 }
 /* line 1, ../sass/module/_slider.scss */
@@ -952,37 +963,20 @@ a.socialIcon:hover,
   }
 }
 @media (max-width: 375px) {
-  /* line 71, ../sass/module/_mainItems.scss */
+  /* line 70, ../sass/module/_mainItems.scss */
   .mainItems {
     width: 200px;
   }
 
-  /* line 74, ../sass/module/_mainItems.scss */
+  /* line 73, ../sass/module/_mainItems.scss */
   .itembox {
     width: 100%;
     float: left;
   }
-  /* line 77, ../sass/module/_mainItems.scss */
+  /* line 76, ../sass/module/_mainItems.scss */
   .itembox img {
     height: 130px;
     width: 100%;
-    border: 1px solid #efefef;
-  }
-}
-@media (max-width: 500px) {
-  /* line 50, ../sass/module/_mainItems.scss */
-  /* line 87, ../sass/module/_mainItems.scss */
-  .itembox {
-    width: 70%;
-    height: auto;
-    background-color: #fff;
-    padding: 15px;
-    margin: 5px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
     border: 1px solid #efefef;
   }
 }
