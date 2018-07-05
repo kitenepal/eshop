@@ -21,6 +21,11 @@ a:focus {
   background-color: none;
 }
 
+/* line 18, ../sass/_base/_base.scss */
+.section-padding {
+  padding: 40px 0;
+}
+
 /* line 1, ../sass/module/_nav.scss */
 .md--navbar {
   background-color: #683084;
