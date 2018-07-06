@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=viewport content="width=device-width, initial-scale=0">
     <title>KN-shop | Admin</title>
     <link href="../image/logo.jpg" rel="icon">
     <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.min.css">
@@ -108,7 +108,275 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    
+    <!-- adminForm -->
+    <section class="section-padding">
+      <div class="container-fluid">
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'ad')" id="defaultOpen">Account Dashboard</button>
+          <button class="tablinks" onclick="openCity(event, 'md')">Make Deposit</button>
+          <button class="tablinks" onclick="openCity(event, 'wf')">Withdraw funds</button>
+        </div>
+
+        <div id="ad" class="tabcontent">
+          <div class="container-fluid accountDashboard">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="accountDashboard--item">
+                  <p class="text-center">Username</p>
+                  <h1 class="text-center">yakakhwo</h1><hr>
+                  <div class="row text-center">
+                    <div class="col-sm-4">
+                      <p>Type account</p>
+                      <h3>Investor</h3>
+                      <p>VIP</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p>Registration Date</p>
+                      <h3>May-5-2018</h3>
+                    </div>
+                    <div class="col-sm-4">
+                      <p>Last Access</p>
+                      <h3>Jun-13-2018</h3>
+                      <h3>10:04:50 AM</h3>
+                    </div>
+                  </div><hr>
+                  <div class="row text-center">
+                    <div class="col-sm-6">
+                      <a href="#"><button class="btn bg-primary">Account Settings</button></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a href="#"><button class="btn bg-primary">Security Settings</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="accountDashboard--item">
+                  <p class="text-center">Total account balance</p>
+                  <h1 class="text-center">$ 0.00</h1><hr>
+                  <div class="row text-center">
+                    <div class="col-md-6">
+                      <a href="#"><button class="btn bg-primary">Make New Deposit</button></a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="#"><button class="btn bg-primary">Withdraw funds</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="text-center">Account Statistics</h1>
+                <table class="table">
+                    <tr>
+                      <td>
+                        Last deposit:<br>
+                        $ N/A
+                      </td>
+                      <td>
+                        Active deposits:<br>
+                        $ 0.00
+                      </td>
+                      <td>
+                        Total deposited:<br>
+                        $ 0.00
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Last withdrawal:<br>
+                        $ N/A
+                      </td>
+                      <td>
+                        Pending withdrawal:<br>
+                        $ 0.00
+                      </td>
+                      <td>
+                        Total withdrew:<br>
+                        $ 0.00
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Earned total:<br>
+                        -
+                      </td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="md" class="tabcontent">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>Select a plan:</p>
+                <table class="table">
+                  <tr>
+                    <td colspan="3"><input type="radio" name="plan"> 104% after 1 day</td>
+                  </tr>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Spent Amount ($)</th>
+                    <th>Profit (%)</th>
+                  </tr>
+                  <tr>
+                    <td>104% after 3 days</td>
+                    <td>$25.00 - $10000.00</td>
+                    <td>104.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><a href="#"><button class="btn btn-success">Calculate your profit</button></a></td>
+                  </tr>
+                </table>
+                <table class="table">
+                  <tr>
+                    <td colspan="3"><input type="radio" name="plan"> 104% after 1 day</td>
+                  </tr>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Spent Amount ($)</th>
+                    <th>Profit (%)</th>
+                  </tr>
+                  <tr>
+                    <td>104% after 3 days</td>
+                    <td>$25.00 - $10000.00</td>
+                    <td>104.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><a href="#"><button class="btn btn-success">Calculate your profit</button></a></td>
+                  </tr>
+                </table>
+                <table class="table">
+                  <tr>
+                    <td colspan="3"><input type="radio" name="plan"> 104% after 1 day</td>
+                  </tr>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Spent Amount ($)</th>
+                    <th>Profit (%)</th>
+                  </tr>
+                  <tr>
+                    <td>104% after 3 days</td>
+                    <td>$25.00 - $10000.00</td>
+                    <td>104.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><a href="#"><button class="btn btn-success">Calculate your profit</button></a></td>
+                  </tr>
+                </table>
+                <table class="table">
+                  <tr>
+                    <td colspan="3"><input type="radio" name="plan"> 104% after 1 day</td>
+                  </tr>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Spent Amount ($)</th>
+                    <th>Profit (%)</th>
+                  </tr>
+                  <tr>
+                    <td>104% after 3 days</td>
+                    <td>$25.00 - $10000.00</td>
+                    <td>104.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><a href="#"><button class="btn btn-success">Calculate your profit</button></a></td>
+                  </tr>
+                </table>
+                <table class="table">
+                  <tr>
+                    <td colspan="3"><input type="radio" name="plan"> 104% after 1 day</td>
+                  </tr>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Spent Amount ($)</th>
+                    <th>Profit (%)</th>
+                  </tr>
+                  <tr>
+                    <td>104% after 3 days</td>
+                    <td>$25.00 - $10000.00</td>
+                    <td>104.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><a href="#"><button class="btn btn-success">Calculate your profit</button></a></td>
+                  </tr>
+                </table>
+                <table class="table">
+                  <tr>
+                    <td colspan="3"><input type="radio" name="plan"> 104% after 1 day</td>
+                  </tr>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Spent Amount ($)</th>
+                    <th>Profit (%)</th>
+                  </tr>
+                  <tr>
+                    <td>104% after 3 days</td>
+                    <td>$25.00 - $10000.00</td>
+                    <td>104.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><a href="#"><button class="btn btn-success">Calculate your profit</button></a></td>
+                  </tr>
+                </table>
+                <p>Your account balance ($): $0.00</p>
+                <div class="well">
+                  <h1 class="text-center">Enter Deposit Amount</h1><hr>
+                  <p class="text-center"><label>DEPOSIT AMOUNT (IN $) <input class="text-center" type="text" name="" value="25.00"></label></p>
+                  <p>
+                    <input type="radio" name="type"> Spend funds from PerfectMoney <br>
+                    <input type="radio" name="type"> Spend funds from Payeer <br>
+                    <input type="radio" name="type"> Spend funds from Bitcoin <br>
+                    <input type="radio" name="type"> Spend funds from Litecoin <hr>
+                    <a href="#"><button class="btn btn-success">Spend</button></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="wf" class="tabcontent">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <table class="table table-bordered table-striped">
+                  <tr>
+                    <th>Account Balance :</th>
+                    <th>$ 0.00</th>
+                  </tr>
+                  <tr>
+                    <td>Pending Withdrawals:</td>
+                    <td>$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Your PerfectMoney Account:</td>
+                    <td>not set</td>
+                  </tr>
+                  <tr>
+                    <td>Your Payeer Account:</td>
+                    <td>not set</td>
+                  </tr>
+                  <tr>
+                    <td>Your Bitcoin Account:</td>
+                    <td>not set</td>
+                  </tr>
+                  <tr>
+                    <td>Your Litecoin Account:</td>
+                    <td>not set</td>
+                  </tr>
+                </table>
+                <p>You have no funds to withdraw.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /adminForm -->
     <!-- Footer -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!--footer-->
@@ -183,5 +451,6 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="../js/form.js"></script>
 </body>
 </html>
