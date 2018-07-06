@@ -534,42 +534,36 @@ i:hover {
 }
 
 /* line 64, ../sass/module/_product.scss */
-.increase-btn,
-.decrease-btn {
-  margin-top: 8px;
-}
-
-/* line 69, ../sass/module/_product.scss */
 .cart-btn,
 .buy-btn {
   background: #f46600;
   color: #fff;
 }
 
-/* line 76, ../sass/module/_product.scss */
+/* line 70, ../sass/module/_product.scss */
 .order-on-phone {
   background: #f6f6f6;
   padding: 15px;
   margin-top: 15px;
 }
 
-/* line 82, ../sass/module/_product.scss */
+/* line 76, ../sass/module/_product.scss */
 .order-on-phone h3 {
   color: #45b549;
 }
 
-/* line 86, ../sass/module/_product.scss */
+/* line 80, ../sass/module/_product.scss */
 .order-on-phone p {
   text-align: justify;
 }
 
-/* line 92, ../sass/module/_product.scss */
+/* line 86, ../sass/module/_product.scss */
 .magnify {
   position: relative;
   cursor: none;
 }
 
-/* line 97, ../sass/module/_product.scss */
+/* line 91, ../sass/module/_product.scss */
 .magnify-large {
   position: absolute;
   display: none;
@@ -584,12 +578,12 @@ i:hover {
 }
 
 @media (max-width: 700px) {
-  /* line 113, ../sass/module/_product.scss */
+  /* line 107, ../sass/module/_product.scss */
   .sub_img {
     margin: 20px;
   }
 
-  /* line 116, ../sass/module/_product.scss */
+  /* line 110, ../sass/module/_product.scss */
   .sub_img img {
     width: 50px;
   }
